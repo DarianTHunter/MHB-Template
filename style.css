@@ -4,13 +4,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: yellow;
     overflow: hidden;
 }
 
 #main_menu{
     width: 100%;
     position: relative;
+    background-color: blue;
 }
 
 .logo_area{
@@ -67,7 +67,7 @@
     grid-template-columns: 300px;
     grid-template-rows: 210px 210px 80px;
     grid-template-areas: "image" "text" "stats";
-    margin-right: 10px;
+    margin-right: 50px;
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 18px;
@@ -84,7 +84,7 @@
     grid-template-columns: 300px;
     grid-template-rows: 210px 210px 80px;
     grid-template-areas: "image" "text" "stats";
-    margin-right: 10px;
+    margin-right: 50px;
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 18px;
@@ -101,7 +101,7 @@
     grid-template-columns: 300px;
     grid-template-rows: 210px 210px 80px;
     grid-template-areas: "image" "text" "stats";
-    margin-right: 10px;
+    margin-right: 50px;
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 18px;
@@ -119,6 +119,74 @@
     grid-template-rows: 210px 210px 80px;
     grid-template-areas: "image" "text" "stats";
     margin-right: 10px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: blue;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.card5{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    margin-right: 50px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: blue;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.card6{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    margin-right: 50px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: blue;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.card7{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    margin-right: 50px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: blue;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.card8{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    margin-right: 50px;
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 18px;
@@ -424,6 +492,306 @@
 }
 
 .card4:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+/* Card 5 */
+
+.card5-image{
+    grid-area: image;
+    background-image: url("ObstacleBouncy.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card5-text{
+    grid-area: text;
+    margin: 25px;
+}
+
+.card5-text .date{
+    color: rgb(255,7,110);
+    font-size: 13px;
+}
+
+.card5-text p{
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.card5-text h2{
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+.card5-stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: turquoise;
+}
+
+.card5-stats .stat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+
+.card5-stats .type{
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card5-stats .value{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card5-stats .border{
+    border-left: 1px solid rgba(0,0,0,0.9);
+    border-right: 1px solid rgba(0,0,0,0.9);
+}
+
+.card5-stats .value sup{
+    font-size: 12px;
+}
+
+.card5:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+/* Card 6 */
+
+.card6-image{
+    grid-area: image;
+    background-image: url("Excaliburs\ Castle.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card6-text{
+    grid-area: text;
+    margin: 25px;
+}
+
+.card6-text .date{
+    color: rgb(255,7,110);
+    font-size: 13px;
+}
+
+.card6-text p{
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.card6-text h2{
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+.card6-stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: turquoise;
+}
+
+.card6-stats .stat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+
+.card6-stats .type{
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card6-stats .value{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card6-stats .border{
+    border-left: 1px solid rgba(0,0,0,0.9);
+    border-right: 1px solid rgba(0,0,0,0.9);
+}
+
+.card6-stats .value sup{
+    font-size: 12px;
+}
+
+.card6:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+/* Card 7 */
+
+.card7-image{
+    grid-area: image;
+    background-image: url("cornhole.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card7-text{
+    grid-area: text;
+    margin: 25px;
+}
+
+.card7-text .date{
+    color: rgb(255,7,110);
+    font-size: 13px;
+}
+
+.card7-text p{
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.card7-text h2{
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+.card7-stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: turquoise;
+}
+
+.card7-stats .stat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+
+.card7-stats .type{
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card7-stats .value{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card7-stats .border{
+    border-left: 1px solid rgba(0,0,0,0.9);
+    border-right: 1px solid rgba(0,0,0,0.9);
+}
+
+.card7-stats .value sup{
+    font-size: 12px;
+}
+
+.card7:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+/* Card 8 */
+
+.card8-image{
+    grid-area: image;
+    background-image: url("DblLaneWater\ \(1\).jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card8-text{
+    grid-area: text;
+    margin: 25px;
+}
+
+.card8-text .date{
+    color: rgb(255,7,110);
+    font-size: 13px;
+}
+
+.card8-text p{
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.card8-text h2{
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+.card8-stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: turquoise;
+}
+
+.card8-stats .stat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+
+.card8-stats .type{
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card8-stats .value{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card8-stats .border{
+    border-left: 1px solid rgba(0,0,0,0.9);
+    border-right: 1px solid rgba(0,0,0,0.9);
+}
+
+.card8-stats .value sup{
+    font-size: 12px;
+}
+
+.card8:hover{
     transform: scale(1.2);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
