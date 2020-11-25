@@ -1,3 +1,12 @@
+
+body{
+    background-image: url(kids-in-bouncing-house.jpg);
+}
+
+background-image{
+    opacity: 50%;
+}
+
 .container{
     width: 100vw;
     height: 100vh;
@@ -5,13 +14,12 @@
     align-items: center;
     justify-content: center;
     overflow: auto;
-    padding-bottom: 100px;
 }
 
 #main_menu{
     width: 100%;
     position: relative;
-    background-color: blue;
+    background-color: turquoise;
 }
 
 .logo_area{
@@ -35,6 +43,7 @@
     padding: 80px;
     list-style: none;
     text-align: right;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .inner_main_menu ul li{
@@ -61,14 +70,14 @@
 }
 
 .inner_main_menu ul li a:hover{
-    color: purple;
+    color: yellow;
 }
 
 .footer-main-div{
     width: 100%;
     height: auto;
     margin: auto;
-    background-color: blue;
+    background-color: turquoise;
     padding: 20px 0px;
 
 }
@@ -95,7 +104,7 @@
 }
 
 .footer-social-icons ul li a{
-    color: blue;
+    color: turquoise;
     font-size: 25px;
     display: block;
 }
@@ -131,6 +140,18 @@
     text-decoration: none;
 }
 
+@media only screen and (min-width: 375px) {
+    #main_menu{
+        display: flex;
+
+    }
+
+    .logo_area {
+        position: absolute;
+        display:inline-block;
+        }
+}
+
 
 #CR{
     text-align: center;
@@ -146,7 +167,7 @@
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 18px;
-    background:orange;
+    background:yellow;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
     text-align: center;
 
@@ -163,7 +184,7 @@
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 18px;
-    background: purple;
+    background: yellow;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
     text-align: center;
 
@@ -180,7 +201,7 @@
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 18px;
-    background: red;
+    background:yellow;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
     text-align: center;
 
@@ -197,7 +218,7 @@
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 18px;
-    background: green;
+    background: yellow;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
     text-align: center;
 
@@ -231,7 +252,7 @@
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 18px;
-    background: blue;
+    background: yellow;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
     text-align: center;
 
@@ -248,7 +269,7 @@
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 18px;
-    background: orange;
+    background: yellow;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
     text-align: center;
 
@@ -265,7 +286,7 @@
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 18px;
-    background: green;
+    background: yellow;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
     text-align: center;
 
@@ -287,12 +308,12 @@
 }
 
 .card-text .date{
-    color: rgb(255,7,110);
-    font-size: 13px;
+    color: blue;
+    font-size: 15px;
 }
 
 .card-text p{
-    color: grey;
+    color: black;
     font-size: 15px;
     font-weight: 300;
 }
@@ -362,12 +383,12 @@
 }
 
 .card2-text .date{
-    color: rgb(255,7,110);
-    font-size: 13px;
+    color: blue;
+    font-size: 15px;
 }
 
 .card2-text p{
-    color: grey;
+    color: black;
     font-size: 15px;
     font-weight: 300;
 }
@@ -437,12 +458,12 @@
 }
 
 .card3-text .date{
-    color: rgb(255,7,110);
-    font-size: 13px;
+    color: blue;
+    font-size: 15px;
 }
 
 .card3-text p{
-    color: grey;
+    color: black;
     font-size: 15px;
     font-weight: 300;
 }
@@ -512,12 +533,12 @@
 }
 
 .card4-text .date{
-    color: rgb(255,7,110);
-    font-size: 13px;
+    color: blue;
+    font-size: 15px;
 }
 
 .card4-text p{
-    color: grey;
+    color: black;
     font-size: 15px;
     font-weight: 300;
 }
@@ -587,12 +608,12 @@
 }
 
 .card5-text .date{
-    color: rgb(255,7,110);
-    font-size: 13px;
+    color: blue;
+    font-size: 15px;
 }
 
 .card5-text p{
-    color: grey;
+    color: black;
     font-size: 15px;
     font-weight: 300;
 }
@@ -662,12 +683,12 @@
 }
 
 .card6-text .date{
-    color: rgb(255,7,110);
-    font-size: 13px;
+    color: blue;
+    font-size: 15px;
 }
 
 .card6-text p{
-    color: grey;
+    color: black;
     font-size: 15px;
     font-weight: 300;
 }
@@ -737,12 +758,12 @@
 }
 
 .card7-text .date{
-    color: rgb(255,7,110);
-    font-size: 13px;
+    color: blue;
+    font-size: 15px;
 }
 
 .card7-text p{
-    color: grey;
+    color: black;
     font-size: 15px;
     font-weight: 300;
 }
@@ -812,12 +833,12 @@
 }
 
 .card8-text .date{
-    color: rgb(255,7,110);
-    font-size: 13px;
+    color: blue;
+    font-size: 15px;
 }
 
 .card8-text p{
-    color: grey;
+    color: black;
     font-size: 15px;
     font-weight: 300;
 }
