@@ -1,12 +1,3 @@
-
-body{
-    background-image: url(kids-in-bouncing-house.jpg);
-}
-
-background-image{
-    opacity: 50%;
-}
-
 .container{
     width: 100vw;
     height: 100vh;
